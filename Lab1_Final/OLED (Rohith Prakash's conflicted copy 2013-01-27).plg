@@ -1,0 +1,764 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Rohith-\Dropbox\EE445M\Lab1_OLED\OLED.uvproj
+Project File Date:  01/23/2013
+
+<h2>Output:</h2>
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=3458 RO-data=762 RW-data=24 ZI-data=760  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Connection failed!, error code=&d
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Connection failed!, error code=&d
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Connection failed!, error code=&d
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Connection failed!, error code=&d
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=3458 RO-data=762 RW-data=24 ZI-data=760  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=3930 RO-data=762 RW-data=24 ZI-data=760  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=3942 RO-data=762 RW-data=24 ZI-data=760  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): warning:  #223-D: function "_OLED_Rollback" declared implicitly
+rit128x96x4.c(514): warning:  #223-D: function "_OLED_Message" declared implicitly
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(523): error:  #159: declaration is incompatible with previous "_OLED_Rollback" (declared at line 510)
+rit128x96x4.c(528): error:  #159: declaration is incompatible with previous "_OLED_Message" (declared at line 514)
+rit128x96x4.c(523): warning:  #177-D: function "_OLED_Rollback" was declared but never referenced
+rit128x96x4.c(528): warning:  #177-D: function "_OLED_Message" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+rit128x96x4.h(48): error:  #114: function "oLED_Message" was referenced but not defined
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #140: too many arguments in function call
+rit128x96x4.c(514): warning:  #223-D: function "_OLED_Message" declared implicitly
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(528): error:  #159: declaration is incompatible with previous "_OLED_Message" (declared at line 514)
+rit128x96x4.c(528): warning:  #177-D: function "_OLED_Message" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "oLED_Message" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #140: too many arguments in function call
+rit128x96x4.c(514): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+rit128x96x4.h(49): error:  #20: identifier "unsiched" is undefined
+rit128x96x4.h(49): error:  #84: invalid combination of type specifiers
+OLEDTestMain.c(59): warning:  #223-D: function "oLED_Message" declared implicitly
+compiling Output.c...
+rit128x96x4.h(49): error:  #20: identifier "unsiched" is undefined
+rit128x96x4.h(49): error:  #84: invalid combination of type specifiers
+compiling rit128x96x4.c...
+rit128x96x4.h(49): error:  #20: identifier "unsiched" is undefined
+rit128x96x4.h(49): error:  #84: invalid combination of type specifiers
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #167: argument of type "unsigned char (*)[21]" is incompatible with parameter of type "unsigned char **"
+rit128x96x4.c(510): error:  #167: argument of type "unsigned char (*)[21]" is incompatible with parameter of type "<error-type> **"
+rit128x96x4.c(514): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(523): error:  #20: identifier "unsiched" is undefined
+rit128x96x4.c(523): error:  #84: invalid combination of type specifiers
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "oLED_Message" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #167: argument of type "unsigned char (*)[21]" is incompatible with parameter of type "unsigned char **"
+rit128x96x4.c(510): error:  #167: argument of type "unsigned char (*)[21]" is incompatible with parameter of type "unsigned char **"
+rit128x96x4.c(514): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "oLED_Message" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #167: argument of type "unsigned char (*)[21]" is incompatible with parameter of type "unsigned char **"
+rit128x96x4.c(510): error:  #167: argument of type "unsigned char (*)[21]" is incompatible with parameter of type "unsigned char **"
+rit128x96x4.c(514): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(523): error:  #98: an array may not have elements of this type
+rit128x96x4.c(523): error:  #18: expected a ")"
+rit128x96x4.c(523): error:  #147-D: declaration is incompatible with "void _OLED_Rollback(int, unsigned char **, unsigned char **)" (declared at line 49 of "rit128x96x4.h")
+rit128x96x4.c(523): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+rit128x96x4.h(49): error:  #98: an array may not have elements of this type
+rit128x96x4.h(49): error:  #18: expected a ")"
+OLEDTestMain.c(59): warning:  #223-D: function "oLED_Message" declared implicitly
+compiling Output.c...
+rit128x96x4.h(49): error:  #98: an array may not have elements of this type
+rit128x96x4.h(49): error:  #18: expected a ")"
+compiling rit128x96x4.c...
+rit128x96x4.h(49): error:  #98: an array may not have elements of this type
+rit128x96x4.h(49): error:  #18: expected a ")"
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #140: too many arguments in function call
+rit128x96x4.c(514): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(523): error:  #98: an array may not have elements of this type
+rit128x96x4.c(523): error:  #18: expected a ")"
+rit128x96x4.c(523): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+rit128x96x4.h(49): error:  #98: an array may not have elements of this type
+rit128x96x4.h(49): error:  #18: expected a ")"
+OLEDTestMain.c(59): warning:  #223-D: function "oLED_Message" declared implicitly
+compiling Output.c...
+rit128x96x4.h(49): error:  #98: an array may not have elements of this type
+rit128x96x4.h(49): error:  #18: expected a ")"
+compiling rit128x96x4.c...
+rit128x96x4.h(49): error:  #98: an array may not have elements of this type
+rit128x96x4.h(49): error:  #18: expected a ")"
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #140: too many arguments in function call
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(523): error:  #98: an array may not have elements of this type
+rit128x96x4.c(523): error:  #18: expected a ")"
+rit128x96x4.c(523): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "oLED_Message" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+linking...
+OLED.axf: Error: L6218E: Undefined symbol oLED_Message (referred from oledtestmain.o).
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(520): warning:  #177-D: variable "line" was declared but never referenced
+linking...
+Program Size: Code=4170 RO-data=762 RW-data=32 ZI-data=976  
+"OLED.axf" - 0 Error(s), 5 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+rit128x96x4.h(49): error:  #18: expected a ")"
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+rit128x96x4.h(49): error:  #18: expected a ")"
+compiling rit128x96x4.c...
+rit128x96x4.h(49): error:  #18: expected a ")"
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[21]" is incompatible with parameter of type "unsigned char"
+rit128x96x4.c(511): error:  #140: too many arguments in function call
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(525): error:  #18: expected a ")"
+rit128x96x4.c(525): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+rit128x96x4.c(532): error:  #20: identifier "char_buff" is undefined
+rit128x96x4.c(533): error:  #20: identifier "color_buff" is undefined
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+rit128x96x4.h(49): error:  #18: expected a ")"
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+rit128x96x4.h(49): error:  #18: expected a ")"
+compiling rit128x96x4.c...
+rit128x96x4.h(49): error:  #18: expected a ")"
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[21]" is incompatible with parameter of type "unsigned char"
+rit128x96x4.c(511): error:  #140: too many arguments in function call
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(525): error:  #18: expected a ")"
+rit128x96x4.c(525): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+rit128x96x4.c(532): error:  #20: identifier "char_buff" is undefined
+rit128x96x4.c(533): error:  #20: identifier "color_buff" is undefined
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[5][21]" is incompatible with parameter of type "unsigned char *(*)[21]"
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[5][21]" is incompatible with parameter of type "unsigned char *(*)[21]"
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(532): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(533): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[5][21]" is incompatible with parameter of type "unsigned char *(*)[21]"
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[5][21]" is incompatible with parameter of type "unsigned char *(*)[21]"
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[5][21]" is incompatible with parameter of type "unsigned char *(*)[21]"
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[5][21]" is incompatible with parameter of type "unsigned char *(*)[21]"
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(525): error:  #147-D: declaration is incompatible with "void _OLED_Rollback(int, unsigned char *(*)[21], unsigned char *(*)[21])" (declared at line 49 of "rit128x96x4.h")
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[5][21]" is incompatible with parameter of type "unsigned char ***"
+rit128x96x4.c(511): error:  #167: argument of type "unsigned char (*)[5][21]" is incompatible with parameter of type "unsigned char ***"
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(532): error:  #852: expression must be a pointer to a complete object type
+rit128x96x4.c(532): error:  #852: expression must be a pointer to a complete object type
+rit128x96x4.c(533): error:  #852: expression must be a pointer to a complete object type
+rit128x96x4.c(533): error:  #852: expression must be a pointer to a complete object type
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(532): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(533): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(532): error:  #852: expression must be a pointer to a complete object type
+rit128x96x4.c(532): error:  #852: expression must be a pointer to a complete object type
+rit128x96x4.c(533): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(505): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(505): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(532): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(533): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(527): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #20: identifier "color_buff" is undefined
+rit128x96x4.c(521): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(531): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(526): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(521): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(531): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(526): warning:  #177-D: variable "clear" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+rit128x96x4.h(54): error:  #55-D: too many arguments in invocation of macro "_OLED_Rollback"
+rit128x96x4.h(54): error:  #40: expected an identifier
+rit128x96x4.h(54): error:  #65: expected a ";"
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+rit128x96x4.h(54): error:  #55-D: too many arguments in invocation of macro "_OLED_Rollback"
+rit128x96x4.h(54): error:  #40: expected an identifier
+rit128x96x4.h(54): error:  #65: expected a ";"
+compiling rit128x96x4.c...
+rit128x96x4.h(54): error:  #55-D: too many arguments in invocation of macro "_OLED_Rollback"
+rit128x96x4.h(54): error:  #40: expected an identifier
+rit128x96x4.h(54): error:  #65: expected a ";"
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(521): warning:  #177-D: variable "line" was declared but never referenced
+rit128x96x4.c(524): error:  #55-D: too many arguments in invocation of macro "_OLED_Rollback"
+rit128x96x4.c(524): error:  #40: expected an identifier
+rit128x96x4.c(524): error:  #65: expected a ";"
+rit128x96x4.c(605): warning:  #12-D: parsing restarts here after previous syntax error
+rit128x96x4.c(606): error:  #77-D: this declaration has no storage class or type specifier
+rit128x96x4.c(606): error:  #147: declaration is incompatible with "unsigned char g_pucBuffer[8]" (declared at line 67)
+rit128x96x4.c(606): warning:  #520-D: initialization with "{...}" expected for aggregate object
+rit128x96x4.c(606): error:  #20: identifier "ulY" is undefined
+rit128x96x4.c(607): error:  #40: expected an identifier
+rit128x96x4.c(607): warning:  #77-D: this declaration has no storage class or type specifier
+rit128x96x4.c(607): error:  #92: identifier-list parameters may only be used in a function definition
+rit128x96x4.c(607): error:  #147: declaration is incompatible with "void RITWriteCommand(const unsigned char *, unsigned long)" (declared at line 329)
+rit128x96x4.c(609): error:  #40: expected an identifier
+rit128x96x4.c(608): warning:  #77-D: this declaration has no storage class or type specifier
+rit128x96x4.c(608): error:  #92: identifier-list parameters may only be used in a function definition
+rit128x96x4.c(608): error:  #147: declaration is incompatible with "void RITWriteCommand(const unsigned char *, unsigned long)" (declared at line 329)
+rit128x96x4.c(614): error:  #169: expected a declaration
+rit128x96x4.c(656): warning:  #12-D: parsing restarts here after previous syntax error
+rit128x96x4.c(657): error:  #77-D: this declaration has no storage class or type specifier
+rit128x96x4.c(657): error:  #65: expected a ";"
+rit128x96x4.c(662): error:  #169: expected a declaration
+rit128x96x4.c(756): warning:  #12-D: parsing restarts here after previous syntax error
+rit128x96x4.c(757): error:  #40: expected an identifier
+rit128x96x4.c(757): warning:  #77-D: this declaration has no storage class or type specifier
+rit128x96x4.c(757): error:  #92: identifier-list parameters may only be used in a function definition
+rit128x96x4.c(757): error:  #147: declaration is incompatible with "void RITWriteCommand(const unsigned char *, unsigned long)" (declared at line 329)
+rit128x96x4.c(759): error:  #40: expected an identifier
+rit128x96x4.c(758): warning:  #77-D: this declaration has no storage class or type specifier
+rit128x96x4.c(758): error:  #92: identifier-list parameters may only be used in a function definition
+rit128x96x4.c(758): error:  #147: declaration is incompatible with "void RITWriteCommand(const unsigned char *, unsigned long)" (declared at line 329)
+rit128x96x4.c(764): error:  #169: expected a declaration
+rit128x96x4.c(813): warning:  #12-D: parsing restarts here after previous syntax error
+rit128x96x4.c(818): error:  #40: expected an identifier
+rit128x96x4.c(818): error:  #79: expected a type specifier
+rit128x96x4.c(818): error:  #145: function "<error>" may not be initialized
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(521): warning:  #177-D: variable "line" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(521): warning:  #177-D: variable "line" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(514): error:  #137: expression must be a modifiable lvalue
+rit128x96x4.c(526): warning:  #177-D: variable "line" was declared but never referenced
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(504): warning:  #223-D: function "memcpy" declared implicitly
+rit128x96x4.c(504): warning:  #223-D: function "strlen" declared implicitly
+rit128x96x4.c(510): warning:  #223-D: function "strcpy" declared implicitly
+rit128x96x4.c(521): warning:  #177-D: variable "line" was declared but never referenced
+linking...
+Program Size: Code=4214 RO-data=762 RW-data=32 ZI-data=872  
+"OLED.axf" - 0 Error(s), 6 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(511): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+rit128x96x4.c(511): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+linking...
+Program Size: Code=4214 RO-data=762 RW-data=32 ZI-data=872  
+"OLED.axf" - 0 Error(s), 5 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(59): warning:  #223-D: function "OLED_Top" declared implicitly
+OLEDTestMain.c(60): warning:  #223-D: function "OLED_Bottom" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+linking...
+Program Size: Code=4214 RO-data=762 RW-data=32 ZI-data=872  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(522): warning:  #177-D: variable "line" was declared but never referenced
+linking...
+Program Size: Code=4214 RO-data=762 RW-data=32 ZI-data=872  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4378 RO-data=762 RW-data=32 ZI-data=976  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+rit128x96x4.h(47): error:  #169: expected a declaration
+rit128x96x4.h(53): warning:  #12-D: parsing restarts here after previous syntax error
+compiling Output.c...
+rit128x96x4.h(47): error:  #169: expected a declaration
+rit128x96x4.h(53): warning:  #12-D: parsing restarts here after previous syntax error
+compiling rit128x96x4.c...
+rit128x96x4.h(47): error:  #169: expected a declaration
+rit128x96x4.h(53): warning:  #12-D: parsing restarts here after previous syntax error
+rit128x96x4.c(513): error:  #20: identifier "TOP" is undefined
+rit128x96x4.c(518): error:  #20: identifier "TOP" is undefined
+rit128x96x4.c(522): error:  #268: declaration may not appear after executable statement in block
+rit128x96x4.c(523): error:  #65: expected a ";"
+rit128x96x4.c(544): warning:  #12-D: parsing restarts here after previous syntax error
+rit128x96x4.c(544): error:  #20: identifier "i" is undefined
+rit128x96x4.c(544): error:  #20: identifier "BOTTOM" is undefined
+rit128x96x4.c(549): error:  #20: identifier "BOTTOM" is undefined
+rit128x96x4.c(570): error:  #20: identifier "TOP" is undefined
+rit128x96x4.c(573): error:  #20: identifier "BOTTOM" is undefined
+Target not created
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4434 RO-data=762 RW-data=76 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4450 RO-data=762 RW-data=76 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4450 RO-data=762 RW-data=76 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4450 RO-data=762 RW-data=76 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4450 RO-data=762 RW-data=76 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+rit128x96x4.c(507): error:  #29: expected an expression
+rit128x96x4.c(507): error:  #137: expression must be a modifiable lvalue
+Target not created
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+_____^
+*** error 56: cannot open file
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4450 RO-data=762 RW-data=76 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4430 RO-data=762 RW-data=76 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4430 RO-data=762 RW-data=76 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4442 RO-data=762 RW-data=52 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4498 RO-data=762 RW-data=52 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+compiling Output.c...
+compiling rit128x96x4.c...
+linking...
+Program Size: Code=4518 RO-data=762 RW-data=52 ZI-data=972  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith-\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.

@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+\\psf\Home\Dropbox\EE445M\UART_8962\UART.uvproj
+Project File Date:  01/18/2012
+
+<h2>Output:</h2>
+Rebuild target 'UART'
+assembling Startup.s...
+compiling UART.c...
+compiling UARTTestMain.c...
+linking...
+Program Size: Code=1460 RO-data=16 RW-data=0 ZI-data=256  
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Load "\\\\psf\\Home\\Dropbox\\EE445M\\UART_8962\\UART.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.

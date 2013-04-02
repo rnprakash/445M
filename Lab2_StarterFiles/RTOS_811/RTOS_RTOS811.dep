@@ -1,0 +1,7 @@
+Dependencies for Project 'RTOS', Target 'RTOS811': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4E436C8A)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\user.c)(0x4E43F9CE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "user.o" --omf_browse "user.crf" --depend "user.d")
+F (.\osasm.s)(0x4E440CE4)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "osasm.lst" --xref -o "osasm.o" --depend "osasm.d")
+F (.\os.c)(0x51169AFA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "os.o" --omf_browse "os.crf" --depend "os.d")
+I (os.h)(0x4E436A7A)
+F (..\driverlib\rvmdk\driverlib.lib)(0x00000000)()

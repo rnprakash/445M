@@ -1,0 +1,15 @@
+        AREA    |.text|, CODE, READONLY, ALIGN=2
+       ; THUMB
+
+OS_CPU_SR_Save
+	MRS R0, PRIMASK
+	CPSID I
+	BX LR
+
+OS_CPU_SR_Restore
+	MSR PRIMASK, R0
+	BX LR
+
+	ALIGN
+	END
+	

@@ -1,0 +1,1 @@
+sqrt.o: sqrt.c

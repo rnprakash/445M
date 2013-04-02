@@ -1,0 +1,12 @@
+lab2.o: Lab2.c
+lab2.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+lab2.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+lab2.o: ..\inc/hw_types.h
+lab2.o: ..\driverlib\sysctl.h
+lab2.o: ..\inc\lm3s8962.h
+lab2.o: rit128x96x4.h
+lab2.o: ADC.h
+lab2.o: os.h
+lab2.o: shell.h
+lab2.o: uart.h
+lab2.o: profiling.h

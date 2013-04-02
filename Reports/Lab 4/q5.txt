@@ -1,0 +1,3 @@
+1. The ADC samples are being triggered by a timer, which is controlled by
+the clock, which is controlled by the crystal oscillator, which has almost no
+jitter.

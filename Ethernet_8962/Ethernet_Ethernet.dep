@@ -1,0 +1,26 @@
+Dependencies for Project 'Ethernet', Target 'Ethernet': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4DF13BE0)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main.c)(0x4F949570)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB19766)
+I (..\inc/hw_types.h)(0x4C61A20C)
+I (..\driverlib/sysctl.h)(0x4C61A20A)
+I (C:\Keil\ARM\Inc\Luminary\lm3s8962.h)(0x4F590A4E)
+I (MAC.h)(0x4F938D8A)
+I (Output.h)(0x4E370DA8)
+F (.\MAC.c)(0x4F946982)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "mac.o" --omf_browse "mac.crf" --depend "mac.d")
+I (C:\Keil\ARM\Inc\Luminary\lm3s8962.h)(0x4F590A4E)
+F (.\Output.c)(0x4E370D94)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "output.o" --omf_browse "output.crf" --depend "output.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB19766)
+I (rit128x96x4.h)(0x4C51F4C6)
+I (Output.h)(0x4E370DA8)
+F (.\rit128x96x4.c)(0x4E321BE6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "rit128x96x4.o" --omf_browse "rit128x96x4.crf" --depend "rit128x96x4.d")
+I (..\inc/hw_ssi.h)(0x4C61A20C)
+I (..\inc/hw_memmap.h)(0x4C61A20C)
+I (..\inc/hw_sysctl.h)(0x4C61A20C)
+I (..\inc/hw_types.h)(0x4C61A20C)
+I (..\driverlib/debug.h)(0x4C61A20A)
+I (..\driverlib/gpio.h)(0x4C61A20A)
+I (..\driverlib/ssi.h)(0x4D641526)
+I (..\driverlib/sysctl.h)(0x4C61A20A)
+I (rit128x96x4.h)(0x4C51F4C6)
+F (..\driverlib\rvmdk\driverlib.lib)(0x4C61A20A)()

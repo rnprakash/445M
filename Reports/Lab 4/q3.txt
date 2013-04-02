@@ -1,0 +1,2 @@
+3. Since the Fourier transform of a rectangular pulse is a sinc, the transform
+of a square wave would be the convolution of infinite sinc pulses.

@@ -1,0 +1,686 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Rohith\Dropbox\EE445M\Lab1_OLED\OLED.uvproj
+Project File Date:  01/28/2013
+
+<h2>Output:</h2>
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+assembling Startup.s...
+Startup.s(126): error: A1516E: Bad symbol 'Timer2A_Handler', not defined or external
+compiling OLEDTestMain.c...
+OLEDTestMain.c(51): warning:  #550-D: variable "buff" was set but never used
+compiling rit128x96x4.c...
+compiling OS.c...
+OS.c(177): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'OLED'
+assembling Startup.s...
+Startup.s(126): error: A1516E: Bad symbol 'Timer2A_Handler', not defined or external
+compiling OS.c...
+OS.c(177): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'OLED'
+assembling Startup.s...
+linking...
+OLED.axf: Error: L6218E: Undefined symbol OS_CPU_SR_Restore (referred from rit128x96x4.o).
+OLED.axf: Error: L6218E: Undefined symbol OS_CPU_SR_Save (referred from rit128x96x4.o).
+Target not created
+Build target 'OLED'
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5272 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(91): warning:  #223-D: function "Timer2_Init" declared implicitly
+OLEDTestMain.c(69): warning:  #177-D: variable "i" was declared but never referenced
+OLEDTestMain.c(51): warning:  #550-D: variable "buff" was set but never used
+linking...
+Program Size: Code=4604 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(91): warning:  #223-D: function "Timer2_Init" declared implicitly
+OLEDTestMain.c(69): warning:  #177-D: variable "i" was declared but never referenced
+OLEDTestMain.c(51): warning:  #550-D: variable "buff" was set but never used
+linking...
+Program Size: Code=4604 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(71): warning:  #223-D: function "Timer2_Init" declared implicitly
+OLEDTestMain.c(51): warning:  #550-D: variable "buff" was set but never used
+linking...
+Program Size: Code=5276 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+OS.c(177): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5276 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(72): warning:  #223-D: function "Timer2_Init" declared implicitly
+OLEDTestMain.c(51): warning:  #550-D: variable "buff" was set but never used
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OS.c(179): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5304 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 4 Warning(s).
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+linking...
+Program Size: Code=5304 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OS.c(179): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=5304 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Build target 'OLED'
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+linking...
+Program Size: Code=5304 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OS.c(158): warning:  #177-D: function "_OS_Inc_Time" was declared but never referenced
+linking...
+Program Size: Code=5288 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OS.c(161): warning:  #177-D: function "_OS_Inc_Time" was declared but never referenced
+linking...
+Program Size: Code=5300 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Build target 'OLED'
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OS.c(161): warning:  #177-D: function "_OS_Inc_Time" was declared but never referenced
+linking...
+Program Size: Code=5296 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Build target 'OLED'
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+linking...
+Program Size: Code=5312 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+linking...
+Program Size: Code=5312 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5312 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+linking...
+Program Size: Code=5312 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+OS.c(41): warning:  #223-D: function "EnableInterrupts" declared implicitly
+linking...
+Program Size: Code=5312 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling OS.c...
+linking...
+Program Size: Code=5312 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+linking...
+Program Size: Code=5308 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5312 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer0A_Init" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling OS.c...
+linking...
+Program Size: Code=5312 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer0A_Init" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5312 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=5316 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer0A_Init" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5316 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=5328 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer0A_Init" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5328 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer0A_Init" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+linking...
+Program Size: Code=5356 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer0A_Init" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+linking...
+Program Size: Code=5356 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer0A_Init" declared implicitly
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5356 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer0A_Init" declared implicitly
+OLEDTestMain.c(46): warning:  #177-D: variable "i" was declared but never referenced
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+linking...
+Program Size: Code=4712 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 4 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=4716 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer0A_Init" declared implicitly
+OLEDTestMain.c(46): warning:  #177-D: variable "i" was declared but never referenced
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=4716 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 4 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+OLED.axf: Error: L6218E: Undefined symbol Timer0A_Init (referred from oledtestmain.o).
+Target not created
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(50): warning:  #223-D: function "Timer2A_Init" declared implicitly
+OLEDTestMain.c(46): warning:  #177-D: variable "i" was declared but never referenced
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+linking...
+OLED.axf: Error: L6218E: Undefined symbol Timer2A_Init (referred from oledtestmain.o).
+Target not created
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(46): warning:  #177-D: variable "i" was declared but never referenced
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling OS.c...
+linking...
+OLED.axf: Error: L6218E: Undefined symbol Timer2A_Init (referred from oledtestmain.o).
+Target not created
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=4716 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(47): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(46): warning:  #177-D: variable "i" was declared but never referenced
+OLEDTestMain.c(28): warning:  #550-D: variable "buff" was set but never used
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=4716 RO-data=760 RW-data=76 ZI-data=2140  
+"OLED.axf" - 0 Error(s), 3 Warning(s).
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(30): warning:  #223-D: function "EnableInterrupts" declared implicitly
+linking...
+Program Size: Code=5244 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(30): warning:  #223-D: function "EnableInterrupts" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5244 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Connection failed!, error code=&d
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(30): warning:  #223-D: function "EnableInterrupts" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5244 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=5244 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(30): warning:  #223-D: function "EnableInterrupts" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5244 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=5280 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(30): warning:  #223-D: function "EnableInterrupts" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5280 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(30): warning:  #223-D: function "EnableInterrupts" declared implicitly
+linking...
+Program Size: Code=5264 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(30): warning:  #223-D: function "EnableInterrupts" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5264 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=5248 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=5248 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=5248 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=5248 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OS.c...
+linking...
+Program Size: Code=5248 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 0 Warning(s).
+Build target 'OLED'
+compiling OS.c...
+OS.c(168): warning:  #223-D: function "sprintf" declared implicitly
+linking...
+Program Size: Code=5264 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(39): warning:  #223-D: function "EnableInterrupts" declared implicitly
+OLEDTestMain.c(45): error:  #20: identifier "f2" is undefined
+Target not created
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(39): warning:  #223-D: function "EnableInterrupts" declared implicitly
+linking...
+Program Size: Code=5104 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(39): warning:  #223-D: function "EnableInterrupts" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+OS.c(168): warning:  #223-D: function "sprintf" declared implicitly
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5104 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'OLED'
+compiling OLEDTestMain.c...
+OLEDTestMain.c(43): warning:  #223-D: function "EnableInterrupts" declared implicitly
+linking...
+Program Size: Code=5132 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 1 Warning(s).
+Rebuild target 'OLED'
+assembling Startup.s...
+compiling OLEDTestMain.c...
+OLEDTestMain.c(43): warning:  #223-D: function "EnableInterrupts" declared implicitly
+compiling Output.c...
+compiling rit128x96x4.c...
+compiling OS.c...
+OS.c(168): warning:  #223-D: function "sprintf" declared implicitly
+compiling OS_Critical.c...
+linking...
+Program Size: Code=5132 RO-data=760 RW-data=68 ZI-data=1740  
+"OLED.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\Rohith\\Dropbox\\EE445M\\Lab1_OLED\\OLED.AXF" 
+Warning: OSC to JTAG clock ratio violation - JTAG clock has been automatically adjusted to comply.
+Connecting: Mode=JTAG, Speed=600000Hz
+Erase Done.
+Programming Done.
+Verify OK.

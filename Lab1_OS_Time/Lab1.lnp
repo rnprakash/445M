@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup.o" "os_critical.o" "os.o" "rit128x96x4.o" "output.o" C:\Users\Rohith\Dropbox\EE445M\driverlib\rvmdk\driverlib.lib 
+--strict --scatter "Lab1.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lab1.map" -o Lab1.axf

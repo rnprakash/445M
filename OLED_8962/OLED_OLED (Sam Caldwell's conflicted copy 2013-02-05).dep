@@ -1,0 +1,6 @@
+Dependencies for Project 'OLED', Target 'OLED': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A034728)(--device DLM --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "D:\Keil\ARM\INC\Luminary" -o "Startup.o")
+F (.\OLEDTestMain.c)(0x4FF37C00)(-c --device DLM -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I "D:\Keil\ARM\INC\Luminary" -o "oledtestmain.o" --omf_browse "oledtestmain.crf" --depend "oledtestmain.d")
+F (.\Output.c)(0x4E370D94)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\Luminary" -o "output.o" --omf_browse "output.crf" --depend "output.d")
+F (.\rit128x96x4.c)(0x4E321BE6)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\Luminary" -o "rit128x96x4.o" --omf_browse "rit128x96x4.crf" --depend "rit128x96x4.d")
+F (..\driverlib\rvmdk\driverlib.lib)(0x00000000)()

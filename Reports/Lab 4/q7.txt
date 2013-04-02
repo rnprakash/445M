@@ -1,0 +1,3 @@
+7. Because of the symmetry of the filter coefficients, we can approximately
+halve the number of multiplications by adding the two "mirrored" x terms before
+multiplying, e.g. y[i] = (h[0] * (x[i] + x[i-50]) + ... + h[25] * (x[i-25] + x[i-26]))/256

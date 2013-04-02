@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\driverlib -I..\inc 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\Luminary 
+-o "oledtestmain.o" --omf_browse "oledtestmain.crf" --depend "oledtestmain.d" "OLEDTestMain.c"

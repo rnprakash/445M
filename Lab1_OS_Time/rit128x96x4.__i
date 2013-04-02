@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\inc -I..\driverlib 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\Luminary 
+-o "rit128x96x4.o" --omf_browse "rit128x96x4.crf" --depend "rit128x96x4.d" "rit128x96x4.c"

@@ -1,0 +1,9 @@
+pid work (10 seconds):
+    with profiling:     962
+    without profiling:  1175
+    with button pushes: 1057
+
+TIMESLICE (ms)  DataLost    Jitter  PIDWork
+   2               0         200      1004
+   1               0         200      1287
+   10              0         200      1262

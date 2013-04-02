@@ -1,0 +1,4 @@
+Dependencies for Project 'Ethernet', Target 'PeriodicSysTickInts': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4DF13BE0)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Luminary" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\PeriodicSysTickInts.c)(0x4E41D664)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork -I.. -I..\..\.. -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Luminary" -o "periodicsystickints.o" --omf_browse "periodicsystickints.crf" --depend "periodicsystickints.d")
+F (..\driverlib\rvmdk\driverlib.lib)(0x4C6193FA)()

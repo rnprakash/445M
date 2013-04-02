@@ -1,0 +1,17 @@
+1) If the UART is interrupt driven, than unpredictable high-priority interrupts
+   will increase the jitter.
+
+3) DAS: priority 1; ADC: priority 3; Button: priority 2; SysTick: priority 7.
+   The reason behind these priorities is to give the real-time tasks the highest
+   priorities to minimize jitter.
+
+5) The OS_Kill() statements at the end of Consumer and Display should always
+   be executed, as once the ADC has sampled enough data via Producer they should
+   exit their while() loops and then execute OS_Kill(). However, based on
+   observation, this doesn't always happen.
+
+ 7) Based on the length of the timeslice, it is unlikely that Consumer ever
+    waits on OS_MailBoxSend, as it has to wait for 64 samples from the ADC and
+    then compute the FFT from them inbetween calls. As long as a thread switch
+    happens during that time, allowing Display to empty the mailbox, it won't
+    have to wait.

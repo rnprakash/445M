@@ -1,0 +1,11 @@
+Dependencies for Project 'ADC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x51070953)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\ADC.c)(0x51106281)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "adc.o" --omf_browse "adc.crf" --depend "adc.d")
+I (ADC.h)(0x510FEE30)
+I (..\inc/hw_types.h)(0x4C6193FC)
+I (..\driverlib/adc.h)(0x4C6193FA)
+I (..\inc/lm3s8962.h)(0x4D3A5E5E)
+I (debug.h)(0x510FF096)
+F (.\ADCTestmain.c)(0x51106F3E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "adctestmain.o" --omf_browse "adctestmain.crf" --depend "adctestmain.d")
+I (ADC.h)(0x510FEE30)
+F (..\driverlib\rvmdk\driverlib.lib)(0x4C6193FA)()

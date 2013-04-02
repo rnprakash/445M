@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup.o" "adc.o" "adctestmain.o" Z:\Dropbox\EE445M\driverlib\rvmdk\driverlib.lib 
+--strict --scatter "ADC.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ADC.map" -o ADC.axf

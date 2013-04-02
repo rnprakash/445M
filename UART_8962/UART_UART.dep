@@ -1,0 +1,9 @@
+Dependencies for Project 'UART', Target 'UART': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4BB255AA)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "Startup.o" --depend "Startup.d")
+F (.\UART.c)(0x4E41DBB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "uart.o" --omf_browse "uart.crf" --depend "uart.d")
+I (UART.h)(0x4E41DBB0)
+F (.\UARTTestMain.c)(0x4F174776)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "uarttestmain.o" --omf_browse "uarttestmain.crf" --depend "uarttestmain.d")
+I (..\inc/hw_types.h)(0x4C6193FC)
+I (..\driverlib/sysctl.h)(0x4C6193FA)
+I (UART.h)(0x4E41DBB0)
+F (..\driverlib\rvmdk\driverlib.lib)(0x4C6193FA)()
