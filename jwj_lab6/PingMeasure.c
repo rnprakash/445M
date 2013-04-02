@@ -93,10 +93,10 @@ void PingMeasure_Init(void){
   Done = 0;                        // set on subsequent
 //  GPIO_PORTC_DIR_R |= 0x20;        // make PC5 out (PC5 built-in LED)
 // GPIO_PORTC_DEN_R |= 0x20;        // enable digital I/O on PC5
-  GPIO_PORTD_DEN_R |= 0x50;        // enable digital I/O on PD4,6
-  GPIO_PORTD_AFSEL_R |= 0x10;      // enable alt funct on PD4
-	GPIO_PORTD_DIR_R |= 0x40;        //set PD6 to output
-	PD6 = 0; 
+//  GPIO_PORTD_DEN_R |= 0x50;        // enable digital I/O on PD4,6
+//  GPIO_PORTD_AFSEL_R |= 0x10;      // enable alt funct on PD4
+//	GPIO_PORTD_DIR_R |= 0x40;        //set PD6 to output
+//	PD6 = 0; 
   TIMER0_CTL_R &= ~TIMER_CTL_TAEN; // disable timer0A during setup
   TIMER0_CFG_R = TIMER_CFG_16_BIT; // configure for 16-bit timer mode
                                    // configure for capture mode
@@ -134,11 +134,23 @@ unsigned long PingMeasure(){int i; unsigned short startTime; unsigned long iBit;
 	TIMER0_IMR_R &= ~TIMER_IMR_CAEIM; // disable capture match interrupt
 	Done = 0;
 
-	//send 10us pulse
-	PD6 = 0x40;
+	//enable output on PD4 and send a send 10us pulse
+  GPIO_PORTD_DEN_R &= ~0x10;
+	GPIO_PORTD_DIR_R |= 0x10;
+	GPIO_PORTD_AFSEL_R &= ~0x10;
+	GPIO_PORTD_DEN_R |= 0x10;
+	
+	PD4 = 1;
 	for(i = 0; i < 140; i ++){} //wait approx.10 us
-	//enable interrupts
-  PD6 = 0;
+  PD4 = 0;
+	
+
+	//change PD4 to input capture (CCP0)	
+	GPIO_PORTD_DEN_R &= ~0x10;
+	GPIO_PORTD_DIR_R &= ~0x10;
+	GPIO_PORTD_AFSEL_R |= 0x10;
+	GPIO_PORTD_DEN_R |= 0x10;
+		
   TIMER0_IMR_R |= TIMER_IMR_CAEIM;
 	//wait for echo start
 	while(!Done){}
