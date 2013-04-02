@@ -1,1 +1,0 @@
-periodmeasure.o: PeriodMeasure.c
