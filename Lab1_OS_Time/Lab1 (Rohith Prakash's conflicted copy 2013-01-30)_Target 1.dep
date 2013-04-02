@@ -1,11 +1,0 @@
-Dependencies for Project 'Lab1 (Rohith Prakash's conflicted copy 2013-01-30)', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x4DF13BE0)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
-F (.\OS.c)(0x51094CBC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\driverlib -I..\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "os.o" --omf_browse "os.crf" --depend "os.d")
-I (..\inc\hw_types.h)(0x4C6193FC)
-I (..\driverlib\sysctl.h)(0x4C6193FA)
-I (..\inc\lm3s8962.h)(0x4D3A5E5E)
-I (OS_Critical.h)(0x5106C3E8)
-I (OS.h)(0x51094C6C)
-F (.\OS_Critical.c)(0x51047A24)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\driverlib -I..\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "os_critical.o" --omf_browse "os_critical.crf" --depend "os_critical.d")
-I (OS_Critical.h)(0x5106C3E8)
-F (..\driverlib\rvmdk\driverlib.lib)(0x4C6193FA)()

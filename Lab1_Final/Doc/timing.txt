@@ -1,2 +1,0 @@
-Timer2 ISR: 52 instructions
-_OS_Update_Root: 20 instructions (9 in loop)

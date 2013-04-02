@@ -1,1 +1,0 @@
-user.o: user.c

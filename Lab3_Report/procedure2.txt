@@ -1,8 +1,0 @@
-Task A period (ms):         1    2    4
-Task A execution Time(us):  5    50   500
-Task B period (ms):         2    2    2
-Task B execution Time(us):  250  250  250
-MinJitter (A):              -99  -187 -18
-MaxJitter (A):              119  328  199
-MinJitter (B):              -130 -82  -132
-MaxJitter (B):              271  170  273

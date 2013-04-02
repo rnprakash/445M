@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\John\SkyDrive\ValvanoWare\lab5\Lab2.uvproj
+Project File Date:  03/26/2013
+
+<h2>Output:</h2>
+compiling PeriodMeasure.c...
+PeriodMeasure.c - 0 Error(s), 0 Warning(s).
+Rebuild target 'Lab2'
+assembling Startup.s...
+compiling UART2.c...
+compiling OS.c...
+OS.c(138): warning:  #550-D: variable "delay" was set but never used
+OS.c(176): warning:  #550-D: variable "delay" was set but never used
+OS.c(195): warning:  #550-D: variable "delay" was set but never used
+OS.c(212): warning:  #550-D: variable "delay" was set but never used
+OS.c(317): warning:  #550-D: variable "delay" was set but never used
+OS.c(415): warning:  #550-D: variable "delay" was set but never used
+OS.c(471): warning:  #550-D: variable "delay" was set but never used
+OS.c(522): warning:  #550-D: variable "delay" was set but never used
+OS.c(549): warning:  #550-D: variable "delay" was set but never used
+OS.c(666): warning:  #550-D: variable "delay" was set but never used
+OS.c(805): warning:  #550-D: variable "delay" was set but never used
+OS.c(924): warning:  #550-D: variable "delay" was set but never used
+OS.c(964): warning:  #550-D: variable "delay" was set but never used
+OS.c(973): warning:  #550-D: variable "delay" was set but never used
+assembling OSasm.s...
+compiling edisk.c...
+compiling eFile.c...
+eFile.c(177): warning:  #550-D: variable "fileSize" was set but never used
+eFile.c(316): warning:  #550-D: variable "fileSize" was set but never used
+eFile.c(349): warning:  #550-D: variable "temp" was set but never used
+eFile.c(531): warning:  #1-D: last line of file ends without a newline
+compiling Interperter.c...
+compiling Lab5.c...
+Lab5.c(211): warning:  #69-D: integer conversion resulted in truncation
+Lab5.c(278): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Lab5.c(296): warning:  #69-D: integer conversion resulted in truncation
+compiling PeriodMeasure.c...
+compiling Incremental.c...
+Incremental.c(48): error:  #5: cannot open source input file "PWM.c": No such file or directory
+Target not created
+Rebuild target 'Lab2'
+assembling Startup.s...
+compiling UART2.c...
+compiling OS.c...
+OS.c(138): warning:  #550-D: variable "delay" was set but never used
+OS.c(176): warning:  #550-D: variable "delay" was set but never used
+OS.c(195): warning:  #550-D: variable "delay" was set but never used
+OS.c(212): warning:  #550-D: variable "delay" was set but never used
+OS.c(317): warning:  #550-D: variable "delay" was set but never used
+OS.c(415): warning:  #550-D: variable "delay" was set but never used
+OS.c(471): warning:  #550-D: variable "delay" was set but never used
+OS.c(522): warning:  #550-D: variable "delay" was set but never used
+OS.c(549): warning:  #550-D: variable "delay" was set but never used
+OS.c(666): warning:  #550-D: variable "delay" was set but never used
+OS.c(805): warning:  #550-D: variable "delay" was set but never used
+OS.c(924): warning:  #550-D: variable "delay" was set but never used
+OS.c(964): warning:  #550-D: variable "delay" was set but never used
+OS.c(973): warning:  #550-D: variable "delay" was set but never used
+assembling OSasm.s...
+compiling edisk.c...
+compiling eFile.c...
+eFile.c(177): warning:  #550-D: variable "fileSize" was set but never used
+eFile.c(316): warning:  #550-D: variable "fileSize" was set but never used
+eFile.c(349): warning:  #550-D: variable "temp" was set but never used
+eFile.c(531): warning:  #1-D: last line of file ends without a newline
+compiling Interperter.c...
+compiling Lab5.c...
+Lab5.c(211): warning:  #69-D: integer conversion resulted in truncation
+Lab5.c(278): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+Lab5.c(296): warning:  #69-D: integer conversion resulted in truncation
+compiling PeriodMeasure.c...
+linking...
+Program Size: Code=14668 RO-data=188 RW-data=404 ZI-data=46140  
+"Lab2.axf" - 0 Error(s), 21 Warning(s).

@@ -1,5 +1,0 @@
--c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.. -I..\..\.. -I..\driverlib -I..\inc 
--I C:\Keil\ARM\RV31\INC 
--I C:\Keil\ARM\CMSIS\Include 
--I C:\Keil\ARM\Inc\Luminary 
--o "periodicsystickints.o" --omf_browse "periodicsystickints.crf" --depend "periodicsystickints.d" "PeriodicSysTickInts.c"

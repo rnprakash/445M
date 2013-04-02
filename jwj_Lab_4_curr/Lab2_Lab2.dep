@@ -1,0 +1,52 @@
+Dependencies for Project 'Lab2', Target 'Lab2': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5144C9D6)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "Startup.o" --depend "Startup.d")
+F (.\OLEDTestMain.c)(0x5144C9CE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "oledtestmain.o" --omf_browse "oledtestmain.crf" --depend "oledtestmain.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB19766)
+I (Output.h)(0x5144C9CE)
+F (.\Output.c)(0x5144C9D0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "output.o" --omf_browse "output.crf" --depend "output.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB19766)
+I (rit128x96x4.h)(0x5144C9CE)
+I (Output.h)(0x5144C9CE)
+F (.\rit128x96x4.c)(0x5144D7D8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "rit128x96x4.o" --omf_browse "rit128x96x4.crf" --depend "rit128x96x4.d")
+I (..\inc/hw_ssi.h)(0x4C61A20C)
+I (..\inc/hw_memmap.h)(0x4C61A20C)
+I (..\inc/hw_sysctl.h)(0x4C61A20C)
+I (..\inc/hw_types.h)(0x4C61A20C)
+I (..\driverlib/debug.h)(0x4C61A20A)
+I (..\driverlib/gpio.h)(0x4C61A20A)
+I (..\driverlib/ssi.h)(0x4D641526)
+I (..\driverlib/sysctl.h)(0x4C61A20A)
+I (rit128x96x4.h)(0x5144C9CE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB19766)
+I (os.h)(0x5146315B)
+F (.\UART2.c)(0x5144C9D0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "uart2.o" --omf_browse "uart2.crf" --depend "uart2.d")
+I (FIFO.h)(0x5144C9CE)
+I (UART2.h)(0x5144C9CE)
+I (OS.h)(0x5146315B)
+F (.\ADC.c)(0x5158DEED)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "adc.o" --omf_browse "adc.crf" --depend "adc.d")
+I (Fifo.h)(0x5144C9CE)
+I (C:\Keil\ARM\Inc\Luminary\lm3s8962.h)(0x4F590A4E)
+I (OS.h)(0x5146315B)
+F (.\OS.c)(0x5158DEE1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "os.o" --omf_browse "os.crf" --depend "os.d")
+I (..\inc/hw_types.h)(0x4C61A20C)
+I (..\driverlib/sysctl.h)(0x4C61A20A)
+I (C:\Keil\ARM\Inc\Luminary\lm3s8962.h)(0x4F590A4E)
+I (OS.h)(0x5146315B)
+I (Output.h)(0x5144C9CE)
+I (FIFO.h)(0x5144C9CE)
+F (.\Lab2.c)(0x5158E153)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\.. -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "lab2.o" --omf_browse "lab2.crf" --depend "lab2.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB19766)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB19766)
+I (C:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x4EB19768)
+I (..\inc/hw_types.h)(0x4C61A20C)
+I (rit128x96x4.h)(0x5144C9CE)
+I (adc.h)(0x51463824)
+I (os.h)(0x5146315B)
+I (C:\Keil\ARM\Inc\Luminary\lm3s8962.h)(0x4F590A4E)
+I (UART2.h)(0x5144C9CE)
+I (Fifo.h)(0x5144C9CE)
+F (.\cr4_fft_64_stm32.s)(0x5144C9D0)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "cr4_fft_64_stm32.o" --depend "cr4_fft_64_stm32.d")
+F (.\OS.h)(0x5146315B)()
+F (.\OSasm.s)(0x5144C9CE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "OSasm.o" --depend "OSasm.d")
+F (.\PID_stm32.s)(0x5144C9CE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "PID_stm32.o" --depend "PID_stm32.d")
+F (..\driverlib\rvmdk\driverlib.lib)(0x4C61A20A)()

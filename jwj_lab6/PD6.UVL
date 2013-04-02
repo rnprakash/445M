@@ -1,0 +1,14 @@
+[Signal 1]
+DispName=(*((volatile unsigned long *)0x40007100))
+PlotType=1
+Color=255
+ValHex=0
+MinDec=0
+MinVal=0.
+MaxDec=0
+MaxVal=4294967295.
+Mask=-1
+Offset=6
+Adaptive=0
+DispNumber=1
+HeightFactor=1.

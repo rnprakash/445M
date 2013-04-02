@@ -1,0 +1,1 @@
+OSasm.o: OSasm.s
